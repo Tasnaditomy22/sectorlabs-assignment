@@ -6,6 +6,10 @@ class GistServices {
         return http.get(`users/${userName}/gists`);
     }
 
+    getForksForGist(url) {
+        return http.get(url);
+    }
+
 }
 
 export default new GistServices();

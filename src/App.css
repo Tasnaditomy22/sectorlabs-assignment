@@ -8,8 +8,9 @@
   padding: 15px;
 }
 
-.flex-container {
+.gist-container {
   display: flex;
+  child-align: middle;
   width: 70%;
   flex-direction: row;
   margin: 10px 10px 10px 10px;
@@ -20,11 +21,26 @@
   padding: 10px 10px 10px 10px;
 }
 
-.flex-container > div {
+.gist-container > div {
   background-color: #f1f1f1;
-  width: 600px;
+  child-align: middle;
+  width: 80%;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
 }
+
+.fork-container {
+  display: flex;
+  width: 80%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  flex-direction: column;
+  align-content: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
