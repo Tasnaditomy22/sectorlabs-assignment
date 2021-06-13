@@ -24,7 +24,6 @@ export default class GistForks extends Component{
                 this.setState({
                     gistForks : response.data
                 });
-                console.log(response.data);
             })
             .catch(e => {
                 console.log(e);

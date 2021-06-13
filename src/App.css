@@ -44,3 +44,27 @@
   padding: 10px 10px 10px 10px;
 }
 
+.file-container {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  border-top: 2px solid orangered;
+  border-bottom: 2px solid orangered;
+  border-left: 2px solid orangered;
+  border-right: 2px solid orangered;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.tag {
+  background: orangered;
+  border-radius: 300px 300px 300px 300px;
+  color: #000;
+  height: 26px;
+  width: 52px;
+  line-height: 26px;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  margin: 0 10px 10px 50px;
+}
