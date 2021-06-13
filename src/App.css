@@ -61,7 +61,7 @@
   border-radius: 300px 300px 300px 300px;
   color: #000;
   height: 26px;
-  width: 52px;
+  width: fit-content;
   line-height: 26px;
   text-align: center;
   font-size: 18px;
